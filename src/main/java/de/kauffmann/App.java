@@ -4,20 +4,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Hello world!
- *
+ * Das ist die Klasse app
  */
 public class App 
 {
+	/**
+	 * Kommentare
+	 */
     public static void main( String[] args )
     {
     	BufferedReader keyboard=new BufferedReader(new InputStreamReader(System.in));
 		
 		try {
+			
 			String s = keyboard.readLine();
+			
 			System.out.println(s.toUpperCase());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }
